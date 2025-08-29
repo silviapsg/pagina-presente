@@ -141,3 +141,45 @@ body {
     font-family: var(--fonte-legendas-polaroid);
     text-align: center;
 }
+
+.intro__apresentacao {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.intro__apresentacao__titulo {
+    font-size: 36px;
+    font-family: var(--fonte-titulo);
+}
+
+.intro__apresentacao__gif { }
+
+.intro__apresentacao__botao {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-family: var(--fonte-texto);
+    font-size: 18px;
+    font-weight: 600;
+    background: var(--cor-destaques);
+    color: var(--cor-fundo-principal);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.intro__apresentacao__botao:hover {
+    background: #4b38b5;
+    transform: scale(1.05);
+}
+
+.intro__apresentacao__mensagem-expirado {
+    display: none;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: var(--fonte-texto);
+    color: red;
+    font-weight: 600;
+}
