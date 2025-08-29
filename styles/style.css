@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap');
 
 :root {
     --cor-fundo-principal: #F5F5F5; 
@@ -10,11 +10,15 @@
 
     --fonte-titulo: "Krona One", sans-serif;
     --fonte-texto: "Montserrat", sans-serif;
-    --fonte-legendas-polaroid: "Pacifico", cursive;
+    --fonte-legendas-polaroid: "Shadows Into Light", cursive;
 }
 * {
     margin: 0;
     padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -52,6 +56,7 @@ body {
     max-width: 80%;
     display: flex;
     gap: 40px;
+    align-items: center;
 }
 
 .pagina-presente__apresentacao__titulo {
@@ -123,10 +128,16 @@ body {
 .pagina-presente__fotos__foto {
     max-width: 100%;
     border-radius: 4px;
+    filter: grayscale(100%) brightness(0);
+    transition: filter 0.5s ease;
+}
+
+.pagina-presente__fotos__polaroid:hover .pagina-presente__fotos__foto {
+  filter: grayscale(0%) brightness(1);
 }
 
 .pagina-presente__fotos__legenda {
-    font-size: 16px;
+    font-size: 24px;
     font-family: var(--fonte-legendas-polaroid);
     text-align: center;
 }
