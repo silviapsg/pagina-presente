@@ -160,3 +160,64 @@ body {
     color: red;
     font-weight: 600;
 }
+
+@media (max-width: 768px) {
+    .cabecalho {
+        padding: 5%;
+    }
+
+    .cabecalho__menu {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .cabecalho__menu__link {
+        font-size: 20px;
+    }
+
+    .pagina-presente {
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    .pagina-presente__carta {
+        width: 100%;
+    }
+
+    .pagina-presente__fotos {
+        max-width: 100%;
+    }
+
+    .pagina-presente__fotos__grid {
+        grid-template-columns: 1fr; /* em mobile, uma foto por linha */
+    }
+
+    .pagina-presente__fotos__polaroid {
+        width: 100%;
+    }
+
+    .pagina-presente__fotos__legenda {
+        font-size: 18px;
+    }
+
+    .intro__apresentacao {
+        padding: 5%;
+        gap: 20px;
+    }
+
+    .intro__apresentacao__titulo {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .intro__apresentacao__botao {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .intro__apresentacao__mensagem-expirado {
+        font-size: 16px;
+        text-align: center;
+    }
+}
