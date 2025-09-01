@@ -48,43 +48,21 @@ body {
     padding: 10% 10%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.pagina-presente__apresentacao {
-    max-width: 80%;
-    display: flex;
-    gap: 40px;
-    align-items: center;
-}
-
-.pagina-presente__apresentacao__titulo {
-    font-size: 36px;
-    font-family: var(--fonte-titulo);
-}
-
-.titulo__destaque {
-    color: var(--cor-destaques);
-}
-
-.pagina-presente__apresentacao__imagem {
-    max-width: 50%;
-    border-radius: 24px;
-}
-
 .pagina-presente__carta {
-    max-width: 80%;
-    padding: 5% 15% 5% 0;
+    width: 80%;
+    padding-bottom: 5%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
 }
 
 .pagina-presente__carta__titulo {
     font-size: 28px;
     font-family: var(--fonte-texto);
     text-align: center;
+    padding-bottom: 40px;
 }
 
 .pagina-presente__carta__texto {
@@ -141,7 +119,6 @@ body {
     font-family: var(--fonte-legendas-polaroid);
     text-align: center;
 }
-
 .intro__apresentacao {
     padding: 10%;
     display: flex;
