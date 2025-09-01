@@ -104,7 +104,7 @@ body {
 }
 
 .pagina-presente__fotos__foto {
-    max-width: 100%;
+    width: 100%;
     border-radius: 4px;
     filter: grayscale(100%) brightness(0);
     transition: filter 0.5s ease;
