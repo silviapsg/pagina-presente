@@ -9,6 +9,6 @@ if (agora > dataLimite) {
     expirado.style.display = "block";
 } else {
     botao.addEventListener("click", () => {
-        window.location.href = "index.html";
+        window.location.href = "home.html";
     });
 }
