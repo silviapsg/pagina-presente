@@ -132,8 +132,6 @@ body {
     font-family: var(--fonte-titulo);
 }
 
-.intro__apresentacao__gif { }
-
 .intro__apresentacao__botao {
     padding: 12px 24px;
     border: none;
