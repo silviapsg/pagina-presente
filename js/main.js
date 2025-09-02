@@ -1,4 +1,4 @@
-const dataLimite = new Date(2025, 8, 2, 11, 59);
+const dataLimite = new Date(2025, 8, 1, 11, 59);
 const agora = new Date();
 
 const botao = document.getElementById("entrar");
